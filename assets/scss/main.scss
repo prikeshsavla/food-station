@@ -1,0 +1,22 @@
+// Override default variables
+// $primary-500: #e91e63;
+// $primary-600: #d81b60;
+// $primary-700: #c2185b;
+
+@import '@picocss/pico/scss/pico';
+
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
+@import 'bootstrap/scss/mixins/breakpoints';
+@import 'bootstrap/scss/mixins/grid-framework';
+@import 'bootstrap/scss/mixins/grid';
+@import 'bootstrap/scss/grid';
+@import 'bootstrap/scss/utilities/display';
+@import 'bootstrap/scss/utilities/flex';
+
+:root {
+  --spacing-block: 1rem;
+}
+button {
+  margin-bottom: 0;
+}
